@@ -1,0 +1,122 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    #header {
+        background-color: #F8F9FA;
+        padding: 18px 4rem;
+    }
+    
+    a {
+        text-decoration: none;
+        font-size: 1.25rem;
+        color: rgba(0, 0, 0, 0.9);
+    }
+    
+    .header-all {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .right {
+        border: 1px solid;
+        border-radius: 0.25rem;
+        padding: 0.4rem 1rem;
+    }
+    
+    .left img {
+        width: 1.2%;
+    }
+    
+    .header-all .left1 {
+        margin-right: 30px;
+    }
+    
+    .header-all .left2 {
+        padding: 0 10px;
+    }
+    
+    .header-all .right {
+        text-align: right;
+    }
+    
+    .right img {
+        width: 15px;
+    }
+    
+    #First {
+        background-color: #212529;
+        padding: 130px 4rem;
+        text-align: center;
+    }
+    
+    #First h1 {
+        font-size: 3.5rem;
+        font-weight: bolder;
+        color: #FFFFFF;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+    
+    #First p {
+        font-size: 1.30rem;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    
+    #Second {
+        padding: 6rem 4rem;
+    }
+    
+    .all {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .all .box {
+        width: 22%;
+        padding: 4rem 20px;
+    }
+    
+    .box .top img {
+        width: 100%;
+    }
+    
+    .bottom {
+        border: 1px solid;
+        border-top: none;
+        text-align: center;
+        padding: 40px 20px;
+    }
+    
+    .bottom h5 {
+        font-size: 1.25rem;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    .bottom p {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    
+    .bottom a {
+        border: 1px solid gray;
+        border-radius: 3px;
+        padding: 10px;
+    }
+    
+    #Footer {
+        background-color: #212529;
+        padding: 60px 0;
+        text-align: center;
+    }
+    
+    #Footer p {
+        color: #FBEFE3;
+        font-size: 1.2rem;
+    }
